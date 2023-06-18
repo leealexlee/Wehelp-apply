@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #BB2649;
+}
+/* body {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color);
+} */
+
+.location {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* background-color: var(--background-color);*/
+} 
+
+.avatar{
+    --border-color: #EFD1C6;
+    --background-color: #D4CACD;
+    --avatar-size: 150px;
+    height: var(--avatar-size);
+    width: var(--avatar-size);
+    border: 4px solid var(--border-color);
+    padding: 6px;
+    border-radius: 50%;
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    /*background-color: #cccccc;*/
+}
+hr {
+    border: 2px solid #ecd5b8;
+    border-radius: 1px;
+    margin: 12px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.qbox {
+    flex:none;
+    width: 25%;
+    height: 700px;
+    border-radius: 15px;
+    background-color: azure;
+    margin: 20px;
+}
+
+.question {
+    font-family: ‘Noto Sans TC’, sans-serif;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 20px;
+    margin:10px;
+}
+
+.answer {
+    font-family: ‘Noto Sans TC’, sans-serif;
+    font-size: 18px;
+    color: dimgray;
+    margin:10px
+}
