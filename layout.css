@@ -54,8 +54,8 @@ img {
 }
 .qbox {
     flex:none;
-    width: fit-content;
-    height: 700px;
+    width: 25%;
+    height: fit-content;
     border-radius: 15px;
     background-color: azure;
     margin: 20px;
